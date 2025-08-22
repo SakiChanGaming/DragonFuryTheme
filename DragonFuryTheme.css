@@ -1,0 +1,66 @@
+/**
+ * @name Dragon Fury Theme
+ * @author SakiChanGaming
+ * @version 1.0
+ * @description A Dragon Theme for Better Discord
+ * @source - made by me separately for SaltyLegnd
+ */
+
+
+@import url('https://raw.githack.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/master/Themes/GGO_Kirito/core.css');
+@import url("https://ungiglio.github.io/DiscordDiscordia/BACKGROUNDLESS/backgroundless.css");  /* backgroundless edition */
+
+:root{
+    --background: url('https://i.imgur.com/tfnxgJO.png');
+    --activetext-colour: rgb(255, 255, 255);
+
+    --primary1-colour: rgb(25, 197, 103);
+    --primary2-colour: rgba(25, 209, 71, 0.5);
+    --primary3-colour: rgba(36, 83, 44, 0.6);
+
+    --secondary1-colour: rgba(118, 219, 123, 0.3);
+    --secondary2-colour: rgba(75, 129, 79, 0.5);
+    --secondary3-colour: rgba(27, 53, 31, 0.5); 
+
+    --rgb-highlight: rgb(37, 180, 61);                          /* 4, 217, 255; /* The main highlight color */
+  --rgb-close-button: rgb(37, 180, 61);                         /* The main "close this" or "deny" color */
+  --rgb-online-color: rgb(37, 180, 61);                         /* (31, 147, 80: default green) /* The color used in the "online" user status symbol */
+  --rgb-afk-color: rgb(37, 180, 61);                           /* The color used in the "idle" user status symbol */
+  --rgb-dnd-color: rgb(37, 180, 61);                            /* The color used in the "do not disturb" user status symbol */
+  --rgb-streaming-color: rgb(37, 180, 61);                     /* The color used in the "streaming X" user status symbol */
+  --status-danger-rgb: rgb(37, 180, 61);                /* The color used for every danger action/button */
+
+  --transition-time: .3s;                                  /* How fast animations added by the theme happen. Default is 0.3 seconds */
+
+  --show-original-title: 0;                                /* Whether you want to show discords original title (0 means no, 1 means yes) */
+  --show-custom-title: 1;                                  /* Whether you want to show a custom title (0 means no, 1 means yes) */
+  --custom-title-text: "SaltyLegnd";            /* The custom text you want to display */
+  --custom-title-font-size: 18px;                          /* The size in pixels of the custom title text */
+  --custom-title-font-weight: normal;                      /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  --custom-title-margin-top: 0px;                          /* The distance from the top of the window to the custom title text */
+  --custom-title-margin-left: 10px;                        /* The distance from the left side of the window to the custom title text */
+
+  --custom-channel-header-color: rgb(43, 156, 62);
+  --custom-channel-icon: rgb(67, 197, 55);              /* channel list unselected color */
+  --channel-icon: rgb(118, 187, 118) !important;    /* channel list unselected color */
+  --custom-selected-channel-color: rgb(78, 209, 78);     /* channel list selected color */
+  --cat-custom-color-rgba: rgb(78, 209, 78);
+  --cat-custom-color: rgb(var(--cat-custom-color-rgba));
+
+  --custom-spoiler-color: rgb(98, 212, 83);            /* Spoilers color */
+
+  --darkPurple-background: rgb(0, 58, 0);              /* Textarea background color */
+
+  --custom-logo: url('https://i.imgur.com/CgRTi2r.png'); /* custom logo */
+  --custom-logo-hover: url('https://i.imgur.com/YC9ZW6L.png'); /* custom logo (hover) */ 
+}
+
+/*
+Theme Owned and Made by [discord]-(flowerbunny575) -SakiChanGaming
+                               
+Background Img: https://wpblink.com/sites/default/files/wallpaper/anime/66761/sword-art-online-ii-wallpapers-hd-66761-327252.png 
+Base Module: https://github.com/VaporousCreeper/BetterDiscord-ThemesAndPlugins/blob/master/Themes/GGO_Kirito/GGO_Kirito.theme.css - By VaporiousCreeper
+Backgroundless: https://github.com/ungiglio/DiscordDiscordia/tree/main/BACKGROUNDLESS - By DiscordDiscordia
+
+The 3 items above are not owned by me, They go to there respected owners 
+*/
